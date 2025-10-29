@@ -22,6 +22,8 @@ namespace GameFramework
         protected int speed = 0;
 
         protected Player player;
+        public Player Player { get => player; }
+
         protected string type = "";
         protected int cost = 0;
 
